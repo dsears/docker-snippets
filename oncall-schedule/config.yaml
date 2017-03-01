@@ -1,0 +1,14 @@
+team:
+- Alice
+- Bob
+- Joe
+
+start_date: "2017-03-06 00:00:00"
+
+shift_days: 7
+
+date_format: "%a %b %-d"
+
+iterations: 10
+
+output_format: confluence
