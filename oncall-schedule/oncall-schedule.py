@@ -9,7 +9,6 @@ import yaml
 import sys
 
 def render_confluence(cfg, data):
-  print 'i am render confluence'
   print '||' + '||'.join(data['header']) + '||'
   for row in data['rows']:
     for shift in row:

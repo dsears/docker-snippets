@@ -1,13 +1,13 @@
 team:
-- Alice
-- Bob
-- Joe
+- A
+- B
+- C
 
-start_date: "2017-03-06 00:00:00"
+start_date: "2017-04-24 00:00:00"
 
 shift_days: 7
 
-date_format: "%a %b %-d"
+date_format: "%b %-d"
 
 iterations: 10
 
