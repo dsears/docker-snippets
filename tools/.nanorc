@@ -1,0 +1,6 @@
+set autoindent
+set nowrap
+set multibuffer
+set nohelp
+set quiet
+syntax "disabled" "."

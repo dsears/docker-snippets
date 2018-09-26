@@ -17,6 +17,7 @@ ENV COMPOSER_NO_INTERACTION=1
 RUN apt-get -y install curl zip git php-xml php7.2-mbstring && \
     curl --silent --show-error https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer
+ENV COMPOSER_NO_INTERACTION=0
 
 # clean up apt
 RUN apt-get clean
